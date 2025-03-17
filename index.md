@@ -6,7 +6,7 @@ title: Index
 # Introduction to Deep Learning
 ---------------------------------
 
-Winter Semester 2025  
+Summer Semester 2025  
 [Prof. Dr. Sebastian Stober](http://www.ai.ovgu.de/Staff/Stober.html),
 [Jens Johannsmeier](http://www.ai.ovgu.de/Staff/Johannsmeier.html)  
 Thu 11:00-13:00; G29-307
@@ -59,7 +59,7 @@ If you afterwards have got further questions about the course, please contact [S
 <img src="figures/prerequisites.png" width="700">
 
 ([Link to LSF system](https://lsf.ovgu.de/qislsf/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=222096)
-| [Link to Moodle](https://elearning.ovgu.de/course/view.php?id=FIXME) - Course Password: FIXME)  
+| [Link to Moodle](https://elearning.ovgu.de/course/view.php?id=18673) - Course Password: IDLSS25)  
 Your submitted information will be solely used for application process. It will be treated confidentially and deleted after the candidates have been selected.  
 
 
