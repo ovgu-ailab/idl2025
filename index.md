@@ -9,9 +9,9 @@ title: Index
 Summer Semester 2025  
 [Prof. Dr. Sebastian Stober](http://www.ai.ovgu.de/Staff/Stober.html),
 [Jens Johannsmeier](http://www.ai.ovgu.de/Staff/Johannsmeier.html)  
-Thu 11:00-13:00; G29-307
+Tue 9:00-11:00; G29-307
 
-**Start: Thursday, April 10**
+**Start: Tuesday, April 8**
 
 ---
 
