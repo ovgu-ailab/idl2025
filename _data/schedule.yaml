@@ -6,8 +6,8 @@ lectures:
       xslides: lectures/01_Introduction.pdf
     reading:
     - optional: True,
-      title: "Deep Learning Book - Part I: Applied Math and Machine Learning Basics"
-      url: http://www.deeplearningbook.org/
+      title: "Deep Learning - Foundations and Concepts - Appendix A. Linear Algebra"
+      url: https://www.bishopbook.com/
     objectives:
       - establish learning environment (active participation etc.)
       - reflect on personal goals, motivation and (prior) knowledge
@@ -31,16 +31,4 @@ lectures:
       - "15min topic map (together), can optionally moved to next class"
     note: "TODO: more links to online lectures/talks on basics"
 
-  - date: 2025-04-17
-    type:
-    content:
-      - title: MLPs, Gradient Descent & Backpropagation
-        slides:
-    reading:
-      - title: "Deep Learning Book - Chapter 6: Deep Feedforward Networks"
-        url: http://www.deeplearningbook.org/contents/mlp.html
-    xassignment:
-      - label: "First Steps"
-        link: assignment1.html
-        objectives:
-          - "Get your feet wet!"
+  
