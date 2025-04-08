@@ -34,10 +34,9 @@ lectures:
   - date: 2025-04-15
     type:
     content:
-      - xtitle: Introductions
-        xslides: lectures/01_Introduction.pdf
+      - title: Deep Neural Networks
     reading:
-        title: "TBD"
+        title: "Bishop Book - Chapter 6 (Section 6.5 is optional)"
         url:
     assignment:
       - label: "Programming Assignment 1: Basic MLP"
@@ -46,13 +45,32 @@ lectures:
   - date: 2025-04-22
     type:
     content:
-      - xtitle: Introductions
-        xslides: lectures/01_Introduction.pdf
+      - xtitle: Gradient Descent and Backpropagation        
     reading:
-        title: "TBD"
+        title: "Bishop Book - Chapter 7 (complete) and Chapter 8 (with the goal to get a high-level perspective)"
         url:
     assignment:
       - label: "Programming Assignment 1.5: torch.nn"
         link: assignment1_5.html
 
-  
+  - date: 2025-04-29
+    type:
+    content:
+      - title: Regularization
+    reading:
+        title: "Bishop Book - Chapter 9 (complete)"
+        url:
+    xassignment:
+      - label: "Programming Assignment 1: Basic MLP"
+        link: assignment1.html 
+
+  - date: 2025-05-06
+    type:
+    content:
+      - title: CNNs
+    reading:
+        title: "Bishop Book - Sections 10.1 and 10.2"
+        url:
+    xassignment:
+      - label: "Programming Assignment 1: Basic MLP"
+        link: assignment1.html 
