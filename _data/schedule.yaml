@@ -36,8 +36,8 @@ lectures:
     content:
       - title: Deep Neural Networks
     reading:
-        title: "Bishop Book - Chapter 6 (Section 6.5 is optional)"
-        url:
+      - title: "Bishop Book - Chapter 6 (Section 6.5 is optional)"
+        url: https://www.bishopbook.com/
     assignment:
       - label: "Programming Assignment 1: Basic MLP"
         link: assignment1.html
@@ -45,10 +45,10 @@ lectures:
   - date: 2025-04-22
     type:
     content:
-      - xtitle: Gradient Descent and Backpropagation        
+      - title: Gradient Descent and Backpropagation        
     reading:
-        title: "Bishop Book - Chapter 7 (complete) and Chapter 8 (with the goal to get a high-level perspective)"
-        url:
+      - title: "Bishop Book - Chapter 7 (complete) and Chapter 8 (with the goal to get a high-level perspective)"
+        url: https://www.bishopbook.com/
     assignment:
       - label: "Programming Assignment 1.5: torch.nn"
         link: assignment1_5.html
@@ -58,8 +58,8 @@ lectures:
     content:
       - title: Regularization
     reading:
-        title: "Bishop Book - Chapter 9 (complete)"
-        url:
+      - title: "Bishop Book - Chapter 9 (complete)"
+        url: https://www.bishopbook.com/
     xassignment:
       - label: "Programming Assignment 1: Basic MLP"
         link: assignment1.html 
@@ -69,8 +69,10 @@ lectures:
     content:
       - title: CNNs
     reading:
-        title: "Bishop Book - Sections 10.1 and 10.2"
-        url:
+      - title: "Bishop Book - Sections 10.1 and 10.2"
+        url: https://www.bishopbook.com/
     xassignment:
       - label: "Programming Assignment 1: Basic MLP"
         link: assignment1.html 
+
+        
