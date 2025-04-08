@@ -1,5 +1,5 @@
 lectures:
-  - date: 2025-04-10
+  - date: 2025-04-08
     type:
     content:
     - xtitle: Introductions
@@ -30,5 +30,31 @@ lectures:
       - "15min group work: active structuring of ML topics (given topics, mixed groups)"
       - "15min topic map (together), can optionally moved to next class"
     note: "TODO: more links to online lectures/talks on basics"
+
+  - date: 2025-04-15
+    type:
+    content:
+      - xtitle: Introductions
+        xslides: lectures/01_Introduction.pdf
+    reading:
+      - optional: False,
+        title: "TBD"
+        url:
+    assignment:
+      - label: "Programming Assignment 1: Basic MLP"
+        link: assignment1.html
+
+  - date: 2025-04-22
+    type:
+    content:
+      - xtitle: Introductions
+        xslides: lectures/01_Introduction.pdf
+    reading:
+      - optional: False,
+        title: "TBD"
+        url:
+    assignment:
+      - label: "Programming Assignment 1.5: torch.nn"
+        link: assignment1_5.html
 
   
