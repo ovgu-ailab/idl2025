@@ -35,9 +35,8 @@ Another aspect we need to handle during training is providing data. `torch` also
 
 Get to know these components through self-study! 
 It should be sufficient to read through and try out a few tutorials on [the Pytorch website](https://pytorch.org/tutorials/). 
-Make sure to actually do the practical work! Y
-ou don't need a deep understanding of all the details at this point, just enough to be able to work with these 
-functionalities. 
+Make sure to actually do the practical work! 
+You don't need a deep understanding of all the details at this point, just enough to be able to work with these functionalities. 
 We recommend:
 
 - [Learn the basics](https://pytorch.org/tutorials/beginner/basics/intro.html#) -- this begins with a "quickstart" that 

@@ -155,7 +155,7 @@ Experiment with different hidden layer sizes, activation functions, weight initi
 See if you can make any observations on how changing these parameters affects the model's performance.
 Going to extremes can be very instructive here. 
 For example, what happens with only a single hidden unit? Two? 2000?
-Be sure to include proper graphical representations of you results!
+Be sure to include proper graphical representations of your results!
 
 Some examples are already given in the provided notebook. 
 In particular, it shows how to check the influence of the learning rate on the final performance.
