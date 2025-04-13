@@ -6,7 +6,8 @@ id: ass1
 
 
 # Assignment 1: Lighting the Torch
-**Deadline: Tuesday April 22nd, 20:00**
+**Deadline: Tuesday April 22nd, 20:00**  
+**No exercise on April 16th/18th!**
 
 In this assignment, you will implement and train your first deep model on a well-known image classification task. 
 You will also familiarize yourself with the [Pytorch](https://pytorch.org/) library we will be using for this
