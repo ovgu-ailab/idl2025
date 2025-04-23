@@ -60,9 +60,9 @@ lectures:
     reading:
       - title: "Bishop Book - Chapter 9 (complete)"
         url: https://www.bishopbook.com/
-    xassignment:
-      - label: "Programming Assignment 1: Basic MLP"
-        link: assignment1.html 
+    assignment:
+      - label: "Programming Assignment 2: Visualizing the Training Process"
+        link: assignment2.html
 
   - date: 2025-05-06
     type:
