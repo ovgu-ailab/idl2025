@@ -8,9 +8,6 @@ id: ass2
 # Assignment 2: Watch Line Go Down
 **Deadline: April 29th, 20:00**
 
-Please note! If you can read this, the files for this assignment have not been uploaded yet.
-Please check back later!
-
 Visualizing the learning progress as well as the behavior of a deep model is extremely useful for troubleshooting in 
 case of unexpected outcomes, or just bad results. 
 In this assignment, you will get to know TensorBoard, a visualization suite originally developed for Tensorflow that
@@ -76,9 +73,11 @@ Do the inputs/data look “normal”?
 
 ## What to Submit
 
-- Base: For each training notebook, diagnose what the issue is and what it is caused by! Try to propose a solution for
-each one
+- Base: For each training notebook, diagnose what the issue is and what it is caused by! 
+Try to propose a solution for each one.
 - **6 CP**: Additionally, _implement_ your proposed fix and try it out!
+You can, _but do not have to_, submit each fixed notebook. If you do not submit them, then you should still include
+a textual description of what you did and how exactly it influenced the results!
 
 For the diagnosis/solution proposal, it is sufficient to write some text (Markdown cells). 
 When handing in your fixes, you do _not_ need to also submit the original failure, since we have access to that anyway. 
