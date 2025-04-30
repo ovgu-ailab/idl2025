@@ -71,8 +71,8 @@ lectures:
     reading:
       - title: "Bishop Book - Sections 10.1 and 10.2"
         url: https://www.bishopbook.com/
-    xassignment:
-      - label: "Programming Assignment 1: Basic MLP"
-        link: assignment1.html 
+    assignment:
+      - label: "Programming Assignment 3: Optimization & Regularization"
+        link: assignment3.html
 
         

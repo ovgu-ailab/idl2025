@@ -14,7 +14,7 @@ We will see how, with almost no changes to the architecture, we can reach signif
 simply changing the training procedure.
 
 
-## Humble Beginnings
+## Starting Point
 
 On E-Learning, you can find a notebook that trains a straightforward MLP on the 
 [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
@@ -23,14 +23,17 @@ Images are a similar size at 32x32 pixels, but we now have color images, so thre
 Classes are a selection of animals and vehicles, with far more in-class variety than MNIST.
 
 Run the notebook to see how the model performs.
-It will likely only achieve around 50% accuracy.
+It will likely only achieve around 56% validation accuracy, though it can reach over 90% training accuracy.
 You can tweak the parameters such as the learning rate or number of epochs, batch size, or change the architecture.
 This may give slightly better performance -- but the fact of the matter is that our current setup is simply suboptimal.
+In fact, in our experience, if you increase the learning rate and/or training time, the model will invariably diverge
+and you get a `nan` loss.
 
 
-## Bigger Number Better
+## Optimization
 
-First, we will try to improve our model performance, even at the cost of potentially overfitting.
+First, we will try to improve our model performance, achieve high performance faster, keeping the training stable at the
+same time.
 This is generally the recommended order of doing things -- first get a strong model that can perform the task at all,
 then worry about generalization afterwards.
 
@@ -65,7 +68,7 @@ Thus, our little MLP is no massively overfitting.
 Let's fix that!
 
 
-## 6 CP: This Is Highly Irregular
+## 6 CP: Regularization
 
 The next order of business would be to reign in our model a little and improve performance on the test set.
 This may happen at the expense of training performance, as well as increased training time, but as the end goal of ML
