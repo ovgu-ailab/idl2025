@@ -13,6 +13,9 @@ MLP models.
 We will see how, with almost no changes to the architecture, we can reach significantly better losses and accuracies by
 simply changing the training procedure.
 
+NOTE If you can read this, the notebook mentioned below has not been uploaded yet.
+Pleas check back later!
+
 
 ## Starting Point
 
@@ -116,9 +119,11 @@ Many image transforms come as part of the `torchvision` package.
 There is [a rather in-depth documentation](https://pytorch.org/vision/stable/transforms.html), along with
 [illustrations of their effects](https://pytorch.org/vision/stable/auto_examples/transforms/plot_transforms_illustrations.html).
 Generally, you just create a bunch of transforms and `Compose` them, and give that as an argument to the training dataloader.
+You should generally _not_ apply random transforms to the test data!
 Some transforms you may want to focus on (of course you can try others):
-  - `RandomCrop`
-  - `RandomRotation` or `RandomAffine` (also includes zoom and translation -- the latter can be covered already with
+  - `RandomCrop` -- if you use this, you should apply `CenterCrop` on the test set as well, as the images need to be of
+  the same size!
+  - `RandomRotation` or `RandomAffine` (this also includes zoom and translation -- the latter can be covered already with
   `RandomCrop`)
   - `RandomHorizontalFlip` (okay for CIFAR, but not something like MNIST!)
   - `ColorJitter`
@@ -127,3 +132,16 @@ Replace the usual one-hot labels by "soft" ones.
 This prevents the network from trying to achieve 0 or 1 output probabilities, which can prevent overfitting -- but 
 overdo it, and the network will be too uncertain for good performance. The `CrossEntropyLoss` object has a parameter
 you can just set! Try small numbers around 0.1 or less.
+
+
+## What to Submit
+- A notebook with a trained model including the various optimization improvements.
+You should include a little text write-up on your observations:
+Which technique made the biggest difference?
+Which was easiest to tune/get working?
+You could also see what happens if the _order_ in which you add the different methods makes a difference to your
+conclusions. 
+Or you could add (Tensorboard or other) visualizations to compare the original "before" and your "after" model.
+- 6 CP: The same thing for regularization methods, as well. 
+You can submit a single notebook that includes all changes, or one with optimization only and a second one with 
+regularization added, as well.
