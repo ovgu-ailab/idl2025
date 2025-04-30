@@ -13,9 +13,6 @@ MLP models.
 We will see how, with almost no changes to the architecture, we can reach significantly better losses and accuracies by
 simply changing the training procedure.
 
-NOTE If you can read this, the notebook mentioned below has not been uploaded yet.
-Pleas check back later!
-
 
 ## Starting Point
 
