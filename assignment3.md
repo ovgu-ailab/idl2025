@@ -61,10 +61,9 @@ You should already see a significant improvement in training speed, reaching dec
   pointless.
   So if you want, you can pass `bias=False` to the `Linear` layer when building the model to deactivate the bias.
 
-These couple of changes should be very quick to implement and should already boost your (training) performance 
-massively.
+These couple of changes should be very quick to implement and should already boost your (training) performance.
 For reference, we now got around 95% training accuracy -- although validation accuracy only made it to 58.5%.
-Thus, our little MLP is no massively overfitting.
+Thus, our little MLP is still massively overfitting.
 Let's fix that!
 
 
@@ -129,6 +128,10 @@ Replace the usual one-hot labels by "soft" ones.
 This prevents the network from trying to achieve 0 or 1 output probabilities, which can prevent overfitting -- but 
 overdo it, and the network will be too uncertain for good performance. The `CrossEntropyLoss` object has a parameter
 you can just set! Try small numbers around 0.1 or less.
+
+All in all, these changes should improve held-out performance somewhat.
+For reference, we got to around 65-66% accuracy without too much tuning.
+You can expect training performance to go down; for example, we ended up with only around 75% training accuracy.
 
 
 ## What to Submit
