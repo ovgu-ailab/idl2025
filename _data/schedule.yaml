@@ -82,7 +82,7 @@ lectures:
     reading:
       - title: Reading Assignment
         url: reading5.html
-    assignment:
+    xassignment:
       - label: "Programming Assignment 3: Optimization & Regularization"
         link: assignment3.html
 
