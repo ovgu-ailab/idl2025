@@ -75,4 +75,15 @@ lectures:
       - label: "Programming Assignment 3: Optimization & Regularization"
         link: assignment3.html
 
+  - date: 2025-05-13
+    type:
+    content:
+      - title: Advanced CNN Architectures
+    reading:
+      - title: Reading Assignment
+        url: reading5.html
+    assignment:
+      - label: "Programming Assignment 3: Optimization & Regularization"
+        link: assignment3.html
+
         
