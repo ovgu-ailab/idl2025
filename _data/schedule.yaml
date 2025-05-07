@@ -82,8 +82,8 @@ lectures:
     reading:
       - title: Reading Assignment
         url: reading5.html
-    xassignment:
-      - label: "Programming Assignment 3: Optimization & Regularization"
-        link: assignment3.html
+    assignment:
+      - label: "Programming Assignment 4: Probing CNNs"
+        link: assignment4.html
 
         
