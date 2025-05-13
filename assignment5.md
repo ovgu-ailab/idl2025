@@ -22,7 +22,7 @@ of the neural networks we are learning about!
 
 You can re-use the exact same model from Assignment 4.
 Alternatively, we also prepared notebooks and checkpoints for Resnet, Inception and Densenet variations, all to be found
-on E-Learning (if you can read this, they have not been uploaded yet -- check back later).
+on E-Learning.
 Even if you don't want to use them, it is highly recommended that you at least have a look at how the architectures are
 constructed to get an idea of how to build larger, deeper, and more complex models.
 It's actually very simple!
