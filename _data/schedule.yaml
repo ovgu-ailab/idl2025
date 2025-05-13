@@ -89,10 +89,10 @@ lectures:
   - date: 2025-05-20
     type:
     content:
-      - title: TBD
+      - title: Recurrent Neural Networks
     reading:
-      - title: TBD
-        url:
+      - title: Reading Assignment
+        url: reading6.html
     assignment:
       - label: "Programming Assignment 5: Adversarial Examples"
         link: assignment5.html
