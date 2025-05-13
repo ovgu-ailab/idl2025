@@ -86,4 +86,15 @@ lectures:
       - label: "Programming Assignment 4: Probing CNNs"
         link: assignment4.html
 
+  - date: 2025-05-20
+    type:
+    content:
+      - title: TBD
+    reading:
+      - title: TBD
+        url:
+    assignment:
+      - label: "Programming Assignment 5: Adversarial Examples"
+        link: assignment5.html
+
         
