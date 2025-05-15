@@ -112,7 +112,7 @@ The approach is fairly simple:
 - In your training loop, for each batch, create a batch of adversarial examples with your chosen method.
 Make sure to "cut off" the gradients, i.e. that `requires_grad=False` for these examples, else you may accidentally be
 backpropagating through the creation of the adversarial batch.
-- Train the model using the adversarial batch, Oor(better) use both the original and adversarial data.
+- Train the model using the adversarial batch, or (better) use both the original and adversarial data.
 There are several ways to do this:
   - Compute the loss for the regular batch, call `loss.backward()`, but do _not_ use the optimizer -- instead also compute
   the loss on the adversarial batch (using the same labels) and use `backward()` again. _Then_ use the optimizer. 
