@@ -131,6 +131,13 @@ What about the performance on the original, unmodified data?
 Has it improved, stayed the same, or even regressed?
 
 
+## Summary: What To Submit
+
+- A full procedure to create adversarial examples for a model given some data. 
+Try a couple different parameter sets (e.g. `epsilon`) to see their effects.
+- 6 CP: An implementation of a simple adversarial training procedure along with an evaluation of its effects.
+
+
 ## Bonus
 
 Some further ideas for exploration:
