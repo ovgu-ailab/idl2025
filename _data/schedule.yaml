@@ -104,7 +104,7 @@ lectures:
     reading:
       - title: Reading Assignment
         url: reading7.html
-    xassignment:
-      - label: "Programming Assignment 5: Adversarial Examples"
-        link: assignment5.html
+    assignment:
+      - label: "Programming Assignment 6: Sequence Classification wit RNNs"
+        link: assignment6.html
         
