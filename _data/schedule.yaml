@@ -97,4 +97,14 @@ lectures:
       - label: "Programming Assignment 5: Adversarial Examples"
         link: assignment5.html
 
+  - date: 2025-05-27
+    type:
+    content:
+      - title: Attention and Memory
+    reading:
+      - title: Reading Assignment
+        url: reading7.html
+    xassignment:
+      - label: "Programming Assignment 5: Adversarial Examples"
+        link: assignment5.html
         
