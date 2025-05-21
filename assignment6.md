@@ -55,7 +55,11 @@ state using the RNN update equation.
   - At each time step, the input (which will just be indices representing words) should be mapped to a one-hot vector 
   _or_ a dense embedding; the latter is recommended.
   The torch docs have examples for the usage of both.
-  You can use `torch.nn.functional.one_hot` or `nn.Embedding`, respectively.
+    - You can use `torch.nn.functional.one_hot` or `nn.Embedding`, respectively.
+    - Note that you can apply these transforms on the entire batch of sequences, or on a per-time-step basis.
+    - Be mindful of using the correct value for the size of the vectors/embedding input.
+    The notebook uses a vocabulary size of 5000, but also includes three special tokens on top -- so there are 5003
+    input "words"!
 - After finishing the loop, the final state of the RNN should be transformed into an output prediction.
 We have two classes, so you can use two outputs.
 Remember: No Softmax!
