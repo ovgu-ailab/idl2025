@@ -9,13 +9,13 @@ id: ass6
 **Deadline: May 27th, 20:00**
 
 This week, we will switch gears and consider recurrent neural networks for working with text sequences. 
-While RNNs have been largely supplanted by Transformers, I'm sure they will make a comeback any day now.
+While RNNs have been largely supplanted by Transformers, it's still a good idea to get a basic grasp of the concept.
 In order to stay in somewhat familiar territory, we will look at a _sequence classification_ task, where entire sequences
 of text are assigned a single label.
 Later, we will also consider _sequence-to-sequence_ tasks like language modeling.
 
 
-## Dataset for Sentiment Classification
+## Dataset For Sentiment Classification
 
 We will use the IMDB Movie Review Dataset for our model.
 This is a dataset of 50,000 movie reviews (25,000 each for training and testing), labeled either positive or negative.
@@ -53,8 +53,8 @@ state using the RNN update equation.
   - Since at the start of the loop, there is no previous state, you have to create an _initial state_ tensor.
   This is usually created as a tensor of 0s with size `batch x hidden_dim`.
   - At each time step, the input (which will just be indices representing words) should be mapped to a one-hot vector 
-  _or_ a dense embedding.
-  The latter is recommended.
+  _or_ a dense embedding; the latter is recommended.
+  The torch docs have examples for the usage of both.
   You can use `torch.nn.functional.one_hot` or `nn.Embedding`, respectively.
 - After finishing the loop, the final state of the RNN should be transformed into an output prediction.
 We have two classes, so you can use two outputs.

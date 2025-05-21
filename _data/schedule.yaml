@@ -105,6 +105,6 @@ lectures:
       - title: Reading Assignment
         url: reading7.html
     assignment:
-      - label: "Programming Assignment 6: Sequence Classification wit RNNs"
+      - label: "Programming Assignment 6: Sequence Classification with RNNs"
         link: assignment6.html
         
