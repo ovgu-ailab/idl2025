@@ -6,7 +6,9 @@ id: ass6
 
 
 # Assignment 6: Once Upon A Time, In A Land Where Transformers Did Not Exist...
-**Deadline: May 27th, 20:00**
+**Deadline: June 3rd, 20:00**
+
+**No exercise on May 28th/30th!**
 
 This week, we will switch gears and consider recurrent neural networks for working with text sequences. 
 While RNNs have been largely supplanted by Transformers, it's still a good idea to get a basic grasp of the concept.
