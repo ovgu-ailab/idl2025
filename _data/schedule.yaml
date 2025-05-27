@@ -107,4 +107,15 @@ lectures:
     assignment:
       - label: "Programming Assignment 6: Sequence Classification with RNNs"
         link: assignment6.html
+
+  - date: 2025-06-03 
+    type:
+    content:
+      - title: Transformers and Language Models
+    reading:
+      - title: "Bishop Book - Remainder of chapter 12"
+        url: https://www.bishopbook.com/
+    xassignment:
+      - label: "Programming Assignment 6: Sequence Classification with RNNs"
+        link: assignment6.html        
         
