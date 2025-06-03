@@ -118,4 +118,14 @@ lectures:
     xassignment:
       - label: "Programming Assignment 6: Sequence Classification with RNNs"
         link: assignment6.html        
-        
+  
+  - date: 2025-06-10
+    type:
+    content:
+      - title: Graph Neural Networks
+    reading:
+      - title: Reading Assignment
+        url: reading9.html
+    xassignment:
+      - label: "Programming Assignment 6: Sequence Classification with RNNs"
+        link: assignment6.html
