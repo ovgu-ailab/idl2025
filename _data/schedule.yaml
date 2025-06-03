@@ -126,6 +126,6 @@ lectures:
     reading:
       - title: Reading Assignment
         url: reading9.html
-    xassignment:
-      - label: "Programming Assignment 6: Sequence Classification with RNNs"
-        link: assignment6.html
+    assignment:
+      - label: "Programming Assignment 7: Basic Language Models"
+        link: assignment7.html
