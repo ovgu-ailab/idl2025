@@ -31,7 +31,9 @@ WikiText-2 is relatively small and should be easy to handle; WikiText-103 is muc
 our current compute capacities.
 In any case, you should use the `.token` variant.
 Other popular examples are [the collected works of Shakespeare](https://gist.github.com/blakesanie/dde3a2b7e698f52f389532b4b52bc254)
-or [the King James Bible](https://www.gutenberg.org/files/10/10-0.txt).
+or [the King James Bible](https://www.gutenberg.org/files/10/10-0.txt).  
+**Note:** In case the download above doesn't work, you can also 
+[get it from Kaggle](https://www.kaggle.com/datasets/rohitgr/wikitext) (requires logging in).
 
 You can once again find a preprocessing notebook on E-Learning.
 This one is a bit different/simpler than the last one:
