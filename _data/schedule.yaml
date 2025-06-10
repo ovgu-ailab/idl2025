@@ -129,3 +129,14 @@ lectures:
     assignment:
       - label: "Programming Assignment 7: Basic Language Models"
         link: assignment7.html
+
+  - date: 2025-06-17
+    type:
+    content:
+      - title: Autoencoders and Self-Supervised Representation Learning
+    reading:
+      - title: Reading Assignment
+        url: reading10.html
+    xassignment:
+      - label: "Programming Assignment 7: Basic Language Models"
+        link: assignment7.html
