@@ -137,7 +137,7 @@ lectures:
     reading:
       - title: Reading Assignment
         url: reading10.html
-    xassignment:
+    assignment:
       - label: "Programming Assignment 8: Graph Neural Networks"
         link: assignment8.html
 
@@ -148,6 +148,6 @@ lectures:
     reading:
       - title: Reading Assignment shared in Moodle
         url: https://elearning.ovgu.de/course/view.php?id=18673
-    assignment:
+    xassignment:
       - label: "Programming Assignment 8: Graph Neural Networks"
         link: assignment8.html
