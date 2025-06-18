@@ -148,6 +148,6 @@ lectures:
     reading:
       - title: Reading Assignment shared in Moodle
         url: https://elearning.ovgu.de/course/view.php?id=18673
-    xassignment:
-      - label: "Programming Assignment 8: Graph Neural Networks"
-        link: assignment8.html
+    assignment:
+      - label: "Programming Assignment 9: Self-Supervised Pretraining"
+        link: assignment9.html
