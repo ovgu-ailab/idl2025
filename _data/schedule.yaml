@@ -140,3 +140,14 @@ lectures:
     assignment:
       - label: "Programming Assignment 8: Graph Neural Networks"
         link: assignment8.html
+
+  - date: 2025-06-24
+    type:
+    content:
+      - title: Resource-Constrained Deep Learning
+    reading:
+      - title: Reading Assignment shared in Moodle
+        url: https://elearning.ovgu.de/course/view.php?id=18673
+    assignment:
+      - label: "Programming Assignment 8: Graph Neural Networks"
+        link: assignment8.html
