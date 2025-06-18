@@ -5,7 +5,7 @@ id: ass8
 ---
 
 
-# Assignment 8:  The Nodes And The Edges
+# Assignment 8: The Nodes And The Edges
 **Deadline: June 17th, 20:00**
 
 This week, we take a look at Graph Neural Networks.

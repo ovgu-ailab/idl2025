@@ -5,7 +5,7 @@ id: ass7
 ---
 
 
-# Assignment 7:  Mini-Mini-GPT (Mini)
+# Assignment 7: Mini-Mini-GPT (Mini)
 **Deadline: June 10th, 20:00**
 
 Language modeling has a rich tradition in Machine Learning.
