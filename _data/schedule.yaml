@@ -160,3 +160,5 @@ lectures:
     reading:
     - title: Reading Assignment
       url: reading12.html
+    assignment:
+      - label: "Programming Assignment 10: Prototypical Networks"
