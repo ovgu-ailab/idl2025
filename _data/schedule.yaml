@@ -151,3 +151,12 @@ lectures:
     assignment:
       - label: "Programming Assignment 9: Self-Supervised Pretraining"
         link: assignment9.html
+
+  - date: 2025-07-01
+    type:
+    content:
+    - title: Introspection
+      slides:
+    reading:
+    - title: Reading Assignment
+      url: reading12.html
