@@ -163,3 +163,15 @@ lectures:
     assignment:
       - label: "Programming Assignment 10: Prototypical Networks"
         link: assignment10.html
+
+  - date: 2025-07-08
+    type:
+    content:
+    - title: Wrap-Up
+      slides:
+    reading:
+    - title:
+      url:
+    assignment:
+      - label: "Programming Assignment 11: Explaining Deep Neural Networks"
+        link: assignment11.html
